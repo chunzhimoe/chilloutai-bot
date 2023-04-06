@@ -27,7 +27,9 @@ apt update && apt -y install python3-pip && apt -y install git
 git clone https://github.com/chunzhimoe/aidrawbot
 cd aidrawbot
 pip3 install requirements.txt
+nano bot.py #填入你的telegrambot token还有runpod api
 python3 bot.py 
+
 ```
 
 **(可选)守护进程--日常使用screen就行**
