@@ -12,6 +12,4 @@ bot.py是一个使用 Python 语言编写的 Telegram bot，它使用 Runpod  AP
 该代码使用 `requests` 库向 Runpod API 发送 POST 请求，将用户输入传递到 API 并生成图像，将图像返回并显示在用户的 Telegram 应用中。该代码还使用 `base64` 库将生成的图像转换为字符串，方便于传输，并使用 `time` 和 `os` 库对输出进行管理。
 powered by chatgpt
 
-你需要做的:
-##1.申请telegrambot api
-telegram @BotFather
+
