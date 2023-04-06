@@ -12,7 +12,7 @@
 
 ##1.前往[@botfather](t.me/botfather)处获取telegram token
 
-<img src="C:\Users\aizfu\AppData\Roaming\Typora\typora-user-images\image-20230406102729027.png" alt="image-20230406102729027" style="zoom:50%;" />
+<img src="https://github.com/chunzhimoe/aidrawbot/blob/f299a5ad4ab92b045e6cb1c18338860081e2424a/image-20230406102729027.png" alt="image-20230406102729027" style="zoom:50%;" />
 
 ## 2.注册runpod 获取apikey和程序name
 
@@ -50,7 +50,7 @@ python3 bot.py
 
 
 
-<img src="C:\Users\aizfu\AppData\Roaming\Typora\typora-user-images\image-20230406103948938.png" alt="image-20230406103948938" style="zoom:67%;" />
+<img src="https://raw.githubusercontent.com/chunzhimoe/aidrawbot/main/image-20230406103948938.png" alt="image-20230406103948938" style="zoom:67%;" />
 
 ## 5.局限性
 
