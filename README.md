@@ -1,4 +1,4 @@
-本项目依赖这位[大佬](https://github.com/kale5195/chilloutai/)开发的RunPod Serverless api调用是实现
+本项目依赖这位[大佬](https://github.com/kale5195/chilloutai/)开发的RunPod Serverless api调用实现
 
 ~~我就是把大佬的python接口调用改了一下，然后输入telegram bot的token就可以用了~~
 
