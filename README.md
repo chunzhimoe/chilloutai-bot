@@ -1,6 +1,8 @@
+
 本项目依赖这位[大佬](https://github.com/kale5195/chilloutai/)开发的RunPod Serverless api调用实现
 
 ~~我就是把大佬的python接口调用改了一下，然后输入telegram bot的token就可以用了~~
+
 
 参见:
 
@@ -9,7 +11,7 @@
 [chilloutai/runpod_api_test.py at main · kale5195/chilloutai (github.com)](https://github.com/kale5195/chilloutai/blob/main/runpod_api_test.py)
 
 ##   如何运行
-
+~~在开始之前,我能不要脸的要一个star嘛?~~
 ##1.前往[@botfather](t.me/botfather)处获取telegram token
 
 <img src="https://github.com/chunzhimoe/aidrawbot/blob/f299a5ad4ab92b045e6cb1c18338860081e2424a/image-20230406102729027.png" alt="image-20230406102729027" style="zoom:50%;" />
