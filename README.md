@@ -1,6 +1,6 @@
 # aidrawbot
 
-bot.py是一个使用 Python 语言编写的 Telegram bot，它使用 Runpod AI API 生成图像。该代码包含以下主要组件和功能：
+bot.py是一个使用 Python 语言编写的 Telegram bot，它使用 Runpod  API 生成图像。该代码包含以下主要组件和功能：
 
 - 加载 Telegram bot API token 和 Runpod API 凭据
 - 提供 `start` 和 `help` 命令，用于帮助用户快速了解如何使用该 bot
