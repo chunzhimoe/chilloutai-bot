@@ -1,15 +1,72 @@
-# aidrawbot
+本项目依赖这位[大佬](https://github.com/kale5195/chilloutai/)开发的RunPod Serverless api调用是实现
 
-bot.py是一个使用 Python 语言编写的 Telegram bot，它使用 Runpod  API 生成图像。该代码包含以下主要组件和功能：
+~~我就是把大佬的python接口调用改了一下，然后输入telegram bot的token就可以用了~~
 
-- 加载 Telegram bot API token 和 Runpod API 凭据
-- 提供 `start` 和 `help` 命令，用于帮助用户快速了解如何使用该 bot
-- 提供 `generate` 命令，用于启动对话并开始生成图像的流程
-- 定义了一个 `ConversationHandler`，用于处理用户输入的 `prompt` 和 `negative_prompt`，以确保输入正确。`cancel` 函数用于清除 conversation state 并取消对话。
-- 提供 `prompt_callback` 和 `negative_prompt_callback` 函数，用于处理用户的 `prompt` 和 `negative_prompt`，并向用户发送生成的图像。
-- 启动 Telegram bot 并运行代码。
+参见:
 
-该代码使用 `requests` 库向 Runpod API 发送 POST 请求，将用户输入传递到 API 并生成图像，将图像返回并显示在用户的 Telegram 应用中。该代码还使用 `base64` 库将生成的图像转换为字符串，方便于传输，并使用 `time` 和 `os` 库对输出进行管理。
+[chilloutai/serverless-zh.md at main · kale5195/chilloutai (github.com)](https://github.com/kale5195/chilloutai/blob/main/serverless-zh.md)
+
+[chilloutai/runpod_api_test.py at main · kale5195/chilloutai (github.com)](https://github.com/kale5195/chilloutai/blob/main/runpod_api_test.py)
+
+##   如何运行
+
+##1.前往[@botfather](t.me/botfather)处获取telegram token
+
+<img src="C:\Users\aizfu\AppData\Roaming\Typora\typora-user-images\image-20230406102729027.png" alt="image-20230406102729027" style="zoom:50%;" />
+
+## 2.注册runpod 获取apikey和程序name
+
+[点击这里查看，作者的教程](https://github.com/kale5195/chilloutai/blob/main/serverless-zh.md)
+
+## 3.部署
+
+随便找台linux vps     **我演示用的是debian系统,debian系列系统直接梭哈**
+
+```
+apt update && apt -y install python3-pip && apt -y install git
+git clone https://github.com/chunzhimoe/aidrawbot
+cd aidrawbot
+pip3 install requirements.txt
+python3 bot.py 
+```
+
+**(可选)守护进程--日常使用screen就行**
+
+```
+apt -y install screen && screen -S bot
+python3 bot.py
+```
+
+## 4.实际使用
+
+### 4.1 [查询tag](https://chilloutai.com/) 作者大大的网站
+
+### 4.2 转到telegram
+
+```
+/help 查看帮助
+/generate 制作图片
+```
+
+
+
+<img src="C:\Users\aizfu\AppData\Roaming\Typora\typora-user-images\image-20230406103948938.png" alt="image-20230406103948938" style="zoom:67%;" />
+
+## 5.局限性
+
+**没有任何安全措施！！！请不要分享使用！！！生成取决于选择的runpod机器配置，大约30-40s生成一张图**
+
+## 7.to do
+
+- 添加bot主人模式，允许根据chat id放入群组使用
+
+## 8.特别感谢
+
+[kale5195/chilloutai: AI 图片生成 (github.com)](https://github.com/kale5195/chilloutai)
+
+bot基本上也是在大佬的python调用代码runpod代码上实现的，感谢大佬的无私付出！
+
+其中还有不少问题，我也是个代码垃圾，只略懂一点python.还有不少问题问了chatgpt,如果有其他问题,欢迎大佬们指出！
 
 
 
