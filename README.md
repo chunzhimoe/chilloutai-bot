@@ -72,6 +72,6 @@ bot基本上也是在大佬的python调用代码runpod代码上实现的，感�
 
 其中还有不少问题，我也是个代码垃圾，只略懂一点python.还有不少问题问了chatgpt,如果有其他问题,欢迎大佬们指出！
 
-[![Sponsored by Dartnode](https://app.dartnode.com/assets/dash/images/brand/logo.png)](https://www.dartnode.com)
+[![Sponsored by Dartnode](https://raw.githubusercontent.com/chunzhimoe/chilloutai-bot/main/1.jpg)](https://www.dartnode.com)
 
 
