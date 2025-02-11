@@ -46,7 +46,7 @@ def negative_prompt_callback(update: Update, context: CallbackContext) -> None:
         context.user_data['negative_prompt'] = text
  
     # Make a request to the Runpod API
-    res = requests.post(f'https://api.runpod.ai/v1/{api_name}/run', headers={
+    res = requests.post(f'https://api.runpod.ai/v2/{api_name}/run', headers={
         'Content-Type': 'application/json',
         "Authorization": f"Bearer {runpod_key}"
     }, json={
@@ -57,7 +57,7 @@ def negative_prompt_callback(update: Update, context: CallbackContext) -> None:
     task_id = res.json()['id']
  
     while True:
-        res = requests.get(f'https://api.runpod.ai/v1/{api_name}/status/{task_id}', headers={
+        res = requests.get(f'https://api.runpod.ai/v2/{api_name}/status/{task_id}', headers={
             'Content-Type': 'application/json',
             "Authorization": f"Bearer {runpod_key}"
         })
