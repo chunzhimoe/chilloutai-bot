@@ -1,7 +1,3 @@
-
-
-I will create a comprehensive README in both English and Chinese for the advanced Telegram AI Image Generation Bot.
-
 # Advanced Telegram AI Image Generation Bot
 
 ## English Documentation
