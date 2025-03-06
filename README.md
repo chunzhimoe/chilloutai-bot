@@ -20,7 +20,7 @@ This Telegram bot leverages fal.ai's Stable Diffusion API to create high-quality
 
 1. **Clone the Repository**
    ```
-   git clone https://github.com/your-username/telegram-ai-image-bot.git
+   git clone https://github.com/chunzhimoe/chilloutai-bot.git
    cd telegram-ai-image-bot
    ```
 
